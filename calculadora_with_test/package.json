@@ -1,0 +1,29 @@
+{
+  "name": "calculadora-testing",
+  "version": "1.0.0",
+  "description": "An introduction to JS testing",
+  "main": "calc.js",
+  "scripts": {
+    "start": "webpack calc.js --mode development --watch",
+    "test": "jest"
+  },
+  "keywords": [
+    "js",
+    "javascript",
+    "testing",
+    "jest",
+    "unit",
+    "tests",
+    "integration",
+    "tests",
+    "e2e",
+    "tests"
+  ],
+  "author": "Sammy Gigi Cantoral Montejo",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2"
+  }
+}
