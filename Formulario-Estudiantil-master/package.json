@@ -1,10 +1,10 @@
 {
-  "name": "calculadora-testing",
+  "name": "js-testing-introduction",
   "version": "1.0.0",
   "description": "An introduction to JS testing",
-  "main": "calc.js",
+  "main": "app.js",
   "scripts": {
-    "start": "webpack calc.js --mode development --watch",
+    "start": "webpack app.js --mode development --watch",
     "test": "jest",
     "test:coverage":"jest --coverage"
   },
@@ -20,7 +20,7 @@
     "e2e",
     "tests"
   ],
-  "author": "Sammy Gigi Cantoral Montejo",
+  "author": "Maximilian Schwarzmüller/ Academind GmbH",
   "license": "ISC",
   "devDependencies": {
     "jest": "^29.7.0",
